@@ -1,0 +1,21 @@
+{
+    "bridge": {
+        "name": "HomebridgePI",
+        "username": "CD:22:3D:E3:CE:30",
+        "port": 51826,
+        "pin": "031-45-156"
+    },
+    
+    "description": "The Onion!",
+
+    "platforms": [],
+
+    "accessories": [
+        {
+            "accessory": "ismartswitch",
+            "name": "Bedroom Switch",
+            "getUrl": "http://IP-Address/status",
+            "postUrl": "http://IP-Address/relay"
+        }
+    ]
+}

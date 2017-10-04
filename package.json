@@ -1,0 +1,36 @@
+{
+  "name": "homebridge-mcu-ismartswitch",
+  "version": "1.0.36",
+  "description": "Control relay attached to NodeMCU v.1.0 on HomeBridge Platform. NodeMCU is runnig a WebServer to expose RESTful API call. API expose following method.",
+  "main": "Index.js",
+  "dependencies": {
+    "request": "2.83.0",
+    "url":"0.11.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shoaibrasheed/iSmartSwitch.git"
+  },
+  "author": "Shoaib Rashid",
+  "license": "ISC",
+  "keywords": [
+    "homebridge-plugin",
+    "homebridge",
+    "homekit",
+    "nodemcu",
+    "relay"
+  ],
+  "bugs": {
+    "url": "https://github.com/shoaibrasheed/iSmartSwitch/issues"
+  },
+  "homepage": "https://github.com/shoaibrasheed/iSmartSwitch#readme",
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  }
+
+}
