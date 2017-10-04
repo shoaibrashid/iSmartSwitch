@@ -18,11 +18,9 @@ Control relay attached to NodeMCU v.1.0 on HomeBridge Platform. NodeMCU is runni
 "accessories": [
         {
             "accessory": "ismartswitch",
-            "name": "Bedroom Lamp Switch",
-            "url": "http://192.168.1.210/button",
-            "default_state_off": true, 
-            "sendimmediately": "",
-            "http_method": "GET"
+            "name": "Bedroom Switch",
+            "getUrl": "http://IP-Address/status",
+            "postUrl": "http://IP-Address/relay"
         }
     ]
 
